@@ -3,11 +3,6 @@ wangEditor extension for laravel-admin
 
 这是一个`laravel-admin`扩展，用来将`wangEditor`集成进`laravel-admin`的表单中
 
-laravel-admin | extension
----- | ---
-1.x | 1.x
-2.x |2.x
-
 ## 截图
 
 ![wx20180904-103609](https://user-images.githubusercontent.com/1479100/45007036-65573b80-b02e-11e8-8b27-7ced3db47085.png)
@@ -15,11 +10,7 @@ laravel-admin | extension
 ## 安装
 
 ```bash
-// laravel-admin 1.x
-composer require "laravel-admin-ext/wang-editor:1.*"
-
-// laravel-admin 2.x
-composer require laravel-admin-ext/wang-editor
+composer require php-panel/ladmin-ext-wangeditor
 ```
 
 然后
@@ -87,12 +78,6 @@ $form->editor('content');
 
 > **Note:** 配置路由指向这个action，存储的disk配置在`config/filesystem.php`中，这个需参考laravel官方文档。
 
-## 支持
-
-如果觉得这个项目帮你节约了时间，不妨支持一下;)
-
-![-1](https://cloud.githubusercontent.com/assets/1479100/23287423/45c68202-fa78-11e6-8125-3e365101a313.jpg)
-
 License
 ------------
-Licensed under [The MIT License (MIT)](LICENSE).
+Licensed under [The Apacle 2.0 License](LICENSE).

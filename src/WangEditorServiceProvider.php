@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\WangEditor;
+namespace Ladmin\WangEditor;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
+use Ladmin\Admin;
+use Ladmin\Form;
 use Illuminate\Support\ServiceProvider;
 
 class WangEditorServiceProvider extends ServiceProvider

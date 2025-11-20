@@ -1,32 +1,32 @@
 {
-    "name": "laravel-admin-ext/wang-editor",
+    "name": "php-panel/ladmin-ext-wangeditor",
     "description": "wangEditor extension for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "editor"],
-    "homepage": "https://github.com/laravel-admin-extensions/wangEditor",
-    "license": "MIT",
+    "homepage": "https://github.com/php-panel/ladmin-ext-wangeditor",
+    "license": "Apache-2.0",
     "authors": [
         {
-            "name": "song",
-            "email": "zosong@126.com"
+            "name": "leeqvip",
+            "email": "leeqvip@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "encore/laravel-admin": ">=1.6"
+        "php": ">=8.2",
+        "php-panel/laravel-admin": "^3.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0"
+        "phpunit/phpunit": "^11.0"
     },
     "autoload": {
         "psr-4": {
-            "Encore\\WangEditor\\": "src/"
+            "Ladmin\\WangEditor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\WangEditor\\WangEditorServiceProvider"
+                "Ladmin\\WangEditor\\WangEditorServiceProvider"
             ]
         }
     }

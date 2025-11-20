@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\WangEditor;
+namespace Ladmin\WangEditor;
 
-use Encore\Admin\Extension;
+use Ladmin\Extension;
 
 class WangEditor extends Extension
 {
